@@ -15,6 +15,9 @@ Appdash ([background reading](https://sourcegraph.com/blog/announcing-appdash-an
 
 For more details, read [the godocs](https://godoc.org/github.com/sourcegraph/appdash/opentracing).
 
+## Telegraf
+
+[Telegraf](https://github.com/influxdata/telegraf) is an agent written in Go for collecting, processing, aggregating, and writing metrics.  It has a tracing [plugin](https://github.com/influxdata/telegraf/tree/master/plugins/inputs/zipkin) that implements the Zipkin http server to gather trace and timing data needed to troubleshoot latency problems in microservice architectures.  The plugin allows data to be querryied and written out to [InfluxData](https://github.com/influxdata/influxdb).
 
 ## LightStep
 
